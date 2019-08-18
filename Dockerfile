@@ -1,4 +1,4 @@
-FROM arm32v7/alpine:latest
+FROM amd64/alpine:latest
 MAINTAINER David McElin
 RUN apk add openjdk8-jre
 WORKDIR /repo/Minecraft
